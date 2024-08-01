@@ -1,0 +1,55 @@
+/* General styles for the app */
+.App {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0a022e;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: #7b27b3;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  font-size: 24px;
+  color: #f7eeee;
+  margin-bottom: 10px;
+}
+
+.card__quote {
+  font-size: 18px;
+  color: #f7f1f1;
+  font-style: italic;
+  margin: 0;
+}
+
+.btn {
+  background-color: #a331dc;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ca84e2;
+}
+.particle {
+  position: absolute;
+  z-index: -1;
+  background-color: transparent;
+}
